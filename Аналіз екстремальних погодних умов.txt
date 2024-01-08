@@ -1,0 +1,6 @@
+
+List<WeatherData> hottestStations = findExtremeStations(weatherDataList, Comparator.comparing(WeatherData::getTemperature));
+List<WeatherData> coldestStations = findExtremeStations(weatherDataList, Comparator.comparing(WeatherData::getTemperature).reversed());
+
+
+List<WeatherData> mostHumidStations = findExtremeStations(weatherDataList, Comparator.comparing(WeatherData::getHumidity));

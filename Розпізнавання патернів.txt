@@ -1,0 +1,5 @@
+
+List<WeatherData> stationsWithHeavyRain = findStationsWithPattern(weatherDataList, data -> hasConsecutiveDaysWithRain(data, 7));
+
+
+List<WeatherData> stationsWithTemperatureIncrease = findStationsWithPattern(weatherDataList, data -> hasTemperatureIncrease(data, 5, 5));

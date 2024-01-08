@@ -1,0 +1,5 @@
+
+String apiUrl = "your_api_url_here";
+String json = fetchWeatherData(apiUrl);
+
+List<WeatherData> weatherDataList = parseJsonToWeatherData(json);
